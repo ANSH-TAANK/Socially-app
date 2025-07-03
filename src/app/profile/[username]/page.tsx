@@ -5,7 +5,7 @@ import {
   isFollowing,
 } from "@/actions/profile.action";
 import { notFound } from "next/navigation";
-import ProfilePageClient from "./profilePageClient";
+import ProfilePageClient from "./ProfilePageClient";
 
 
 export async function generateMetadata({ params }: { params: { username: string } }) {
